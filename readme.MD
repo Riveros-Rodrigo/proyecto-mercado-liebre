@@ -1,3 +1,7 @@
-# Rodrigo Riveros
-## [Mercado Liebre 1 - HTML](https://github.com/Riveros-Rodrigo/proyecto-mercado-liebre/tree/estructura-web)
-## [Mercado Liebre 2 - ESTILOS](https://github.com/Riveros-Rodrigo/proyecto-mercado-liebre/tree/estilos)
+# TRABAJO PRÁCTICO Mercado Liebre
+## Integrante: Rodrigo Riveros
+## Descripción: agregar estilos e iconos al header y footer;
+
+
+![](mocks/header-mobile.PNG)
+![](mocks/footer-mobile.PNG)
