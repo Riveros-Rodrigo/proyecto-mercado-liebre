@@ -54,3 +54,15 @@ footer .seccion-metodos p{
 footer .copyright {
     font-size: var(--cuerpoTexto);
 }
+/* Responsive tablet */
+@media (min-width:768px){
+    header img{
+        width: 20rem;
+    }
+    header nav{
+        display: unset;
+    }
+    header .burger-menu{
+        display: none;
+    }
+}
