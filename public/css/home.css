@@ -1,4 +1,7 @@
 /* ESTILOS AL HEADER */
+header{
+    background-color: var(--amarillo);
+}
 header img{
     width: 50%;
 }

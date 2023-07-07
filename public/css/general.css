@@ -19,7 +19,6 @@
     --descripciones: 16px;
 }
 body{
-    background-color: var(--amarillo);
     font-family: var(--tipografia);
 }
 ul{
