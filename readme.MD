@@ -1,7 +1,3 @@
 # TRABAJO PRÁCTICO Mercado Liebre
 ## Integrante: Rodrigo Riveros
-## Descripción: agregar estilos e iconos al header y footer;
-
-
-![](mocks/header-mobile.PNG)
-![](mocks/footer-mobile.PNG)
+## Descripción: agregando estilos, articulos y posicionando objetos con css en el main

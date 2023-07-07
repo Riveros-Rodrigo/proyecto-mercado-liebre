@@ -1,6 +1,7 @@
 /* ESTILOS AL HEADER */
 header{
     background-color: var(--amarillo);
+    padding: 1rem 1rem;
 }
 header img{
     width: 50%;
@@ -9,6 +10,9 @@ header p{
     text-align: center;
     font-size: var(--cuerpoTexto);
     margin: 20px 0px
+}
+header nav{
+    display: none;
 }
 header .menu{
     margin: 20px 0px;

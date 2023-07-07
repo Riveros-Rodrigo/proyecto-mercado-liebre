@@ -1,9 +1,30 @@
-main{
+body{
+    background-color: #ebebeb;
+}
+main section{
     width: 90%;
     margin: auto;
-    background-color: #ebebeb;
-
+}
+main section h1{
+    padding: 1rem 0rem;
 }
 main section article{
     margin: 10px 0px;
+    background-color: #fff;
+}
+main section article div{
+    border-top: 1px solid var(--grisClaro);
+    padding: 15px;
+}
+main section article div i{
+    padding: 0.7rem;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    border-radius: 50%;
+}
+main section article div .oferta{
+    color: var(--verde);
+}
+main section article div h3{
+    padding: 15px 0px;
 }
