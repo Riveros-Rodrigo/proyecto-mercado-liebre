@@ -1,0 +1,68 @@
+/* ESTILOS AL HEADER */
+header{
+    background-color: var(--amarillo);
+    padding: 1rem 1rem;
+}
+header img{
+    width: 50%;
+}
+header p{
+    text-align: center;
+    font-size: var(--cuerpoTexto);
+    margin: 20px 0px
+}
+header nav{
+    display: none;
+}
+header .menu{
+    margin: 20px 0px;
+    font-size: var(--cuerpoTexto);
+}
+header .registro{
+    margin: 20px 0px;
+    font-size: var(--cuerpoTexto);
+}
+header .burger-menu{
+    text-align: center;
+}
+header .burger-menu i{
+    background-color: var(--celeste);
+    color: var(--grisClaro);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+/* ESTILOS DEL FOOTER */
+footer {
+    background-color: #fff;
+}
+footer .seccion-metodos{
+    text-align: center;
+    margin: 30px auto;
+    width: 90%;
+}
+footer .seccion-metodos i{
+    font-size: 2em;
+    margin-top: 10px;
+    color: var(--celeste);
+}
+footer .seccion-metodos h3{
+    font-size: 18px;
+}
+footer .seccion-metodos p{
+    font-size: var(--cuerpoTexto);
+}
+footer .copyright {
+    font-size: var(--cuerpoTexto);
+}
+/* Responsive tablet */
+@media (min-width:768px){
+    header img{
+        width: 20rem;
+    }
+    header nav{
+        display: unset;
+    }
+    header .burger-menu{
+        display: none;
+    }
+}
