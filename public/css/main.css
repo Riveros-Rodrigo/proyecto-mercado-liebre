@@ -12,21 +12,40 @@ main section article{
     margin: 10px 0px;
     background-color: #fff;
 }
-main section article div{
-    border-top: 1px solid var(--grisClaro);
+main section article .contenedor-img{
+    border-bottom: 1px solid var(--grisClaro);
     padding: 15px;
 }
-main section article div i{
+main section article .contenedor-detalles{
+    margin-top: 1rem;
+    position: relative;
+}
+main section article .contenedor-detalles .precio{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+main section article .contenedor-detalles .precio p{
+    padding: 0.3rem;
+}
+main section article .contenedor-detalles .precio div{
+    position: absolute;
+    right: 2rem;
+    top: -2.2rem;
+}
+main section article .contenedor-detalles .precio div i{
     padding: 0.7rem;
     color: var(--verde);
     border: 1px solid var(--verde);
     border-radius: 50%;
+    background-color: #fff;
 }
-main section article div .oferta{
+main section article .contenedor-detalles .oferta{
     color: var(--verde);
 }
 main section article div h3{
     padding: 15px 0px;
+    margin-left: 1rem;
 }
 /* Responsive tablet */
 @media (min-width:768px){
@@ -36,6 +55,7 @@ main section article div h3{
     }
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 1rem 1rem;
     }
     main section article .contenedor-img{
         display: flex;
@@ -44,10 +64,16 @@ main section article div h3{
     main section article .contenedor-img img{
         width: 35rem;
     }
+    main .contenedor-vista-tablet{
+        display: flex;
+    }
 }
-@media (min-width:1600px){
+@media (min-width:1000px){
     main img{
         width: 100vw;
+    }
+    main .contenedor-vista-desktop{
+        display: flex;
     }
 }
 

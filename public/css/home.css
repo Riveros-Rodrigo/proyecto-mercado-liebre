@@ -3,8 +3,29 @@ header{
     background-color: var(--amarillo);
     padding: 1rem 1rem;
 }
-header img{
-    width: 50%;
+header .contendor-logo-search{
+    display: flex;
+    align-items: center;
+}
+header .img-mobile{
+    width: 40%;
+}
+header .img-desktop{
+    display: none;
+}
+header .contendor-logo-search .contenedor-search{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+header .contendor-logo-search .contenedor-search input{
+    border: none;
+}
+header .contendor-logo-search .contenedor-search i{
+    background-color: #fff;
 }
 header p{
     text-align: center;
@@ -56,11 +77,30 @@ footer .copyright {
 }
 /* Responsive tablet */
 @media (min-width:768px){
-    header img{
-        width: 20rem;
+    header .img-mobile{
+        display: none;
     }
-    header nav{
-        display: unset;
+    header .img-desktop{
+        display: flex;
+        width: 10rem;
+    }
+    header .header-desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .contenedor-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .contenedor-nav nav{
+        display: flex;
+    }
+    header .contenedor-nav nav ul{
+        display: flex;
+    }
+    header .contenedor-nav nav ul li{
+        padding: 0rem 1rem;
     }
     header .burger-menu{
         display: none;
