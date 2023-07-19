@@ -23,3 +23,9 @@ Encabezado: nos piden que la primera parte del encabezado quede de la siguiente
 manera:
 * Logo: tiene que medir el 50% de su contenedor.
 * Barra de búsqueda: tiene que medir el 50% de su contenedor.
+
+## REVIEW del desafío alcanzado:
+
+![Desafio Mobile](mocks/mobile-flexbox.PNG)
+![Desafio Tablet](mocks/tablet-flexbox.PNG)
+![Desafio Desktop](mocks/desktop-flexbox.PNG)
