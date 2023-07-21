@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Paleta de colores */
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+    --tipografia: 'Roboto', sans-serif;
+    --cuerpoTexto: 12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+}
+body{
+    font-family: var(--tipografia);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--azul);
+}
+img{
+    max-width: 100%;
+}
+

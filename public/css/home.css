@@ -1,0 +1,108 @@
+/* ESTILOS AL HEADER */
+header{
+    background-color: var(--amarillo);
+    padding: 1rem 1rem;
+}
+header .contendor-logo-search{
+    display: flex;
+    align-items: center;
+}
+header .img-mobile{
+    width: 40%;
+}
+header .img-desktop{
+    display: none;
+}
+header .contendor-logo-search .contenedor-search{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+header .contendor-logo-search .contenedor-search input{
+    border: none;
+}
+header .contendor-logo-search .contenedor-search i{
+    background-color: #fff;
+}
+header p{
+    text-align: center;
+    font-size: var(--cuerpoTexto);
+    margin: 20px 0px
+}
+header nav{
+    display: none;
+}
+header .menu{
+    margin: 20px 0px;
+    font-size: var(--cuerpoTexto);
+}
+header .registro{
+    margin: 20px 0px;
+    font-size: var(--cuerpoTexto);
+}
+header .burger-menu{
+    text-align: center;
+}
+header .burger-menu i{
+    background-color: var(--celeste);
+    color: var(--grisClaro);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+/* ESTILOS DEL FOOTER */
+footer {
+    background-color: #fff;
+}
+footer .seccion-metodos{
+    text-align: center;
+    margin: 30px auto;
+    width: 90%;
+}
+footer .seccion-metodos i{
+    font-size: 2em;
+    margin-top: 10px;
+    color: var(--celeste);
+}
+footer .seccion-metodos h3{
+    font-size: 18px;
+}
+footer .seccion-metodos p{
+    font-size: var(--cuerpoTexto);
+}
+footer .copyright {
+    font-size: var(--cuerpoTexto);
+}
+/* Responsive tablet */
+@media (min-width:768px){
+    header .img-mobile{
+        display: none;
+    }
+    header .img-desktop{
+        display: flex;
+        width: 10rem;
+    }
+    header .header-desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .contenedor-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .contenedor-nav nav{
+        display: flex;
+    }
+    header .contenedor-nav nav ul{
+        display: flex;
+    }
+    header .contenedor-nav nav ul li{
+        padding: 0rem 1rem;
+    }
+    header .burger-menu{
+        display: none;
+    }
+}
