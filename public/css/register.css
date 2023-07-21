@@ -1,0 +1,46 @@
+.register h1{
+    text-align: center;
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.register form input{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 0rem;
+    margin: 1rem 0rem;
+}
+/* Nacimiento */
+.register form .titulo-label{
+    font-weight: 700;
+    width: 90%;
+    margin: 1rem 0rem;
+}
+.register form .usuario{
+    display: flex;
+    align-items: center;
+}
+.register form .usuario input{
+    margin: 0rem 1rem;
+}
+/* intereses */
+.register form .intereses{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+}
+.register form .intereses .interes{
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+.register form .intereses .opciones{
+    margin: 0rem 1rem;
+}
+/* foto usuario */

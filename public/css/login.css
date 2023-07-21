@@ -1,0 +1,17 @@
+.login{
+    width: 90%;
+    margin: auto;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login form input{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 0rem;
+    margin: 1rem 0rem;
+}
+.login form .submit{
+    background-color: var(--celeste);
+} 
